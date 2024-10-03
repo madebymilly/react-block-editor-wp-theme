@@ -1,0 +1,16 @@
+/*
+Theme Name: My Basic Theme
+Theme URI: http://example.com/my-basic-theme/
+Author: Your Name
+Author URI: http://example.com
+Description: A basic WordPress theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, custom-background
+Text Domain: my-basic-theme
+*/
+
+body {
+	color: blue;
+}

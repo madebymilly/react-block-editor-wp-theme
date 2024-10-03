@@ -1,12 +1,23 @@
 import { Component } from '@wordpress/element';
-
+import Header from './Header';
+import Footer from './Footer';
 export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Hello, WordPress and React!</h1>
-        {/* Your React components will go here */}
-      </div>
-		);
+    state = {
+        darkTheme: true,
+    };
+    toggleTheme = () => {
+        this.setState(prevState => ({
+            darkTheme: !prevState.darkTheme,
+        }));
+    };
+    render() {
+        //const { darkTheme } = this.state;
+        return (
+            <>
+					<Header />
+					<div>body...</div>
+					<Footer />
+				</>
+        );
     }
 }

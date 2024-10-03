@@ -11,6 +11,17 @@ Tags: blog, custom-background
 Text Domain: my-basic-theme
 */
 
-body {
-	color: blue;
+
+/* Add build tool voor CSS / SCSS */
+.site-header  {
+	background-color: black;
+	color: white;
+}
+
+.site-header a {
+	color: white;
+}
+
+.site-footer {
+	border-top: 2px solid blue;
 }
